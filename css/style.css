@@ -228,12 +228,12 @@ ul.about-list li span {
 
 /*!* Team Section *!*/
 /*#tf-team {*/
-    /*background: url(../img/03.jpg);*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*background-attachment: fixed;*/
-    /*background-repeat: no-repeat;*/
-    /*color: #ffffff;*/
+/*background: url(../img/03.jpg);*/
+/*background-size: cover;*/
+/*background-position: center;*/
+/*background-attachment: fixed;*/
+/*background-repeat: no-repeat;*/
+/*color: #ffffff;*/
 /*}*/
 
 #tf-team .overlay {
@@ -366,12 +366,12 @@ img.img-circle.team-img {
 
 /*!* Clients Section *!*/
 /*#tf-clients {*/
-    /*background: url(../img/04.jpg);*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*background-attachment: fixed;*/
-    /*background-repeat: no-repeat;*/
-    /*color: #ffffff;*/
+/*background: url(../img/04.jpg);*/
+/*background-size: cover;*/
+/*background-position: center;*/
+/*background-attachment: fixed;*/
+/*background-repeat: no-repeat;*/
+/*color: #ffffff;*/
 /*}*/
 
 #tf-clients .overlay {
@@ -538,12 +538,12 @@ ol.type li a.active {
 
 /*!* Testimonials Section *!*/
 /*#tf-testimonials {*/
-    /*background: url(../img/05.jpg);*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
-    /*background-attachment: fixed;*/
-    /*background-repeat: no-repeat;*/
-    /*color: #ffffff;*/
+/*background: url(../img/05.jpg);*/
+/*background-size: cover;*/
+/*background-position: center;*/
+/*background-attachment: fixed;*/
+/*background-repeat: no-repeat;*/
+/*color: #ffffff;*/
 /*}*/
 
 #tf-testimonials .overlay {
@@ -662,9 +662,15 @@ hr {
     width: 90%;
 }
 
+.footer-container {
+    margin-top: -10px;
+    height: 10px;
+}
+
 .hr-style {
     height: 5px;
     background-color: darkred;
+    margin-top: 20px;
 }
 
 .hr-onFooter {
@@ -714,44 +720,51 @@ nav#footer p {
 /*!* carousel *!*/
 /*.carousel-inner > .item > img,*/
 /*.carousel-inner > .item > a > img {*/
-    /*width: 70%;*/
-    /*margin: auto;*/
+/*width: 70%;*/
+/*margin: auto;*/
 /*}*/
-
 
 .carousel-showmanymoveone .carousel-control {
     width: 4%;
     background-image: none;
 }
+
 .carousel-showmanymoveone .carousel-control.left {
     margin-left: 15px;
 }
+
 .carousel-showmanymoveone .carousel-control.right {
     margin-right: 15px;
 }
+
 .carousel-showmanymoveone .cloneditem-1,
 .carousel-showmanymoveone .cloneditem-2,
 .carousel-showmanymoveone .cloneditem-3 {
     display: none;
 }
+
 @media all and (min-width: 768px) {
     .carousel-showmanymoveone .carousel-inner > .active.left,
     .carousel-showmanymoveone .carousel-inner > .prev {
         left: -50%;
     }
+
     .carousel-showmanymoveone .carousel-inner > .active.right,
     .carousel-showmanymoveone .carousel-inner > .next {
         left: 50%;
     }
+
     .carousel-showmanymoveone .carousel-inner > .left,
     .carousel-showmanymoveone .carousel-inner > .prev.right,
     .carousel-showmanymoveone .carousel-inner > .active {
         left: 0;
     }
+
     .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
         display: block;
     }
 }
+
 @media all and (min-width: 768px) and (transform-3d), all and (min-width: 768px) and (-webkit-transform-3d) {
     .carousel-showmanymoveone .carousel-inner > .item.active.right,
     .carousel-showmanymoveone .carousel-inner > .item.next {
@@ -759,12 +772,14 @@ nav#footer p {
         transform: translate3d(50%, 0, 0);
         left: 0;
     }
+
     .carousel-showmanymoveone .carousel-inner > .item.active.left,
     .carousel-showmanymoveone .carousel-inner > .item.prev {
         -webkit-transform: translate3d(-50%, 0, 0);
         transform: translate3d(-50%, 0, 0);
         left: 0;
     }
+
     .carousel-showmanymoveone .carousel-inner > .item.left,
     .carousel-showmanymoveone .carousel-inner > .item.prev.right,
     .carousel-showmanymoveone .carousel-inner > .item.active {
@@ -773,25 +788,30 @@ nav#footer p {
         left: 0;
     }
 }
+
 @media all and (min-width: 992px) {
     .carousel-showmanymoveone .carousel-inner > .active.left,
     .carousel-showmanymoveone .carousel-inner > .prev {
         left: -25%;
     }
+
     .carousel-showmanymoveone .carousel-inner > .active.right,
     .carousel-showmanymoveone .carousel-inner > .next {
         left: 25%;
     }
+
     .carousel-showmanymoveone .carousel-inner > .left,
     .carousel-showmanymoveone .carousel-inner > .prev.right,
     .carousel-showmanymoveone .carousel-inner > .active {
         left: 0;
     }
+
     .carousel-showmanymoveone .carousel-inner .cloneditem-2,
     .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
         display: block;
     }
 }
+
 @media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
     .carousel-showmanymoveone .carousel-inner > .item.active.right,
     .carousel-showmanymoveone .carousel-inner > .item.next {
@@ -799,12 +819,14 @@ nav#footer p {
         transform: translate3d(25%, 0, 0);
         left: 0;
     }
+
     .carousel-showmanymoveone .carousel-inner > .item.active.left,
     .carousel-showmanymoveone .carousel-inner > .item.prev {
         -webkit-transform: translate3d(-25%, 0, 0);
         transform: translate3d(-25%, 0, 0);
         left: 0;
     }
+
     .carousel-showmanymoveone .carousel-inner > .item.left,
     .carousel-showmanymoveone .carousel-inner > .item.prev.right,
     .carousel-showmanymoveone .carousel-inner > .item.active {
@@ -813,9 +835,11 @@ nav#footer p {
         left: 0;
     }
 }
+
 .container {
     margin-bottom: 50px;
 }
+
 body {
     font-family: 'Bitter', sans-serif;
     color: #E54A41;
@@ -824,24 +848,29 @@ body {
     background-position: right top;
     background-size: 20%;
 }
+
 p {
     font-family: 'Open Sans', sans-serif;
     color: #333;
     margin-bottom: 2em;
 }
+
 h2 {
     margin: 2em 0 1em;
 }
+
 .logo {
     margin: 20px auto;
     height: 100px;
 }
+
 @media only screen and (min-width: 768px) {
     .logo {
         margin: 28px;
         float: left;
     }
 }
+
 .title {
     padding: 28px;
     display: table-cell;
